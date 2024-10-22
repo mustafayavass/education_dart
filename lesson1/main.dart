@@ -7,8 +7,8 @@ void main() {
   //KOŞUL YAPILARI
   //1.İF-ELSE
   //2.SWİTCH-CASE
-  /*double pi = 3.14;
-  String metin = "Merhaba";*/
+  double pi = 3.14;
+  String metin = "Merhaba";
   int yas = 18;
   if (yas < 18) {
     print("Reşit değilsiniz");
