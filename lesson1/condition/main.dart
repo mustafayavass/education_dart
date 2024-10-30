@@ -15,4 +15,20 @@ void main() {
   } else {
     print("Reşitsiniz.");
   }
+  //--------------------------
+  String day = "Çarşamba";
+  switch (day) {
+    case "Pazartesi":
+      print("Haftanın 1.günü");
+      break;
+    case "Salı":
+      print("Haftanın 2.günü");
+      break;
+    case "Çarşamba":
+      print("Haftanın 3.günü");
+      break;
+    default:
+      print("Eşleşme Yok");
+      break;
+  }
 }

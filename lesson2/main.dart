@@ -1,22 +1,31 @@
-//KOŞUL YAPILARI
-//1.IF-ELSE
-//2.SWİTCH-CASE
+//DÖNGÜ YAPILARI
+//1.FOR
+//2.WHİLE
+//3.DO-WHİLE
+
 import 'dart:ffi';
 
 void main() {
-  String day = "Çarşamba";
-  switch (day) {
-    case "Pazartesi":
-      print("Haftanın 1.günü");
-      break;
-    case "Salı":
-      print("Haftanın 2.günü");
-      break;
-    case "Çarşamba":
-      print("Haftanın 3.günü");
-      break;
-    default:
-      print("Eşleşme Yok");
-      break;
+  int total = 0;
+  for (int i = 1; i < 100; i += 2) {
+    //print(i);
+    total = total + i;
   }
+  //--------------------
+  total = 0;
+  int i = 0;
+  while (i < 100) {
+    total = total + i;
+    //print(i);
+    i += 2;
+  }
+  //--------------------
+  i = 0;
+  total = 0;
+  do {
+    total = total + i;
+    print(i);
+    i += 5;
+  } while (i < 100);
+  print("Toplam: " + total.toString());
 }
