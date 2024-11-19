@@ -3,5 +3,5 @@
 import 'prime.dart';
 
 void main() {
-  prime();
+  
 }

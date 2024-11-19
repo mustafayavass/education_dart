@@ -1,6 +1,4 @@
 //void: ana fonksiyona değer döndürmeyen
-
-
 void prime()
 {
   List<int> prime = [];
@@ -21,7 +19,6 @@ void prime()
       prime.add(i);
     }
   }
-
   for (var number in prime) {
     print(number);
   }
