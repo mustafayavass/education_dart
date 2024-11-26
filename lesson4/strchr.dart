@@ -1,15 +1,13 @@
 //Bir metinde belirlenen bir karakteri arayan fonksyonu bulunuz.
 
-import 'dart:ffi';
+String strchr(String str, String chr) {
+  late String result;
 
-String strchr(List lst, Char chr) {
-  String result = "";
-
-  for (int i = 0; i < lst.length; i++) 
-  {
-    if (lst[i] == chr) 
+  for (int i = 0; i < str.length; i++) {
+    if (str[i] == chr) 
     {
       result = "Harf Bulundu.";
+      break;
     } 
     else 
     {
